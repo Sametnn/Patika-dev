@@ -1,0 +1,105 @@
+# Patika-dev
+test veritabanınızda employee isimli sütun bilgileri id(INTEGER), name VARCHAR(50), birthday DATE, email VARCHAR(100) olan bir tablo oluşturalım.
+Create table test
+(
+id int identity primary key,
+name varchar not null,
+birthday date no null,
+email varchar null
+);
+
+Oluşturduğumuz employee tablosuna 'Mockaroo' servisini kullanarak 50 adet veri ekleyelim.
+
+insert into test (id, naame, birthday, email) values (1, 'Claudia', '17.06.2022', 'cbelchambers0@netscape.com');
+insert into test (id, naame, birthday, email) values (2, 'Hamlen', '03.07.2022', 'hheugel1@youtu.be');
+insert into test (id, naame, birthday, email) values (3, 'Barth', '11.12.2022', 'bpennells2@disqus.com');
+insert into test (id, naame, birthday, email) values (4, 'Caryn', '14.08.2022', null);
+insert into test (id, naame, birthday, email) values (5, 'Graig', '09.02.2023', 'gchantrell4@eventbrite.com');
+insert into test (id, naame, birthday, email) values (6, 'Dori', '22.11.2022', null);
+insert into test (id, naame, birthday, email) values (7, 'Jonah', '19.07.2022', null);
+insert into test (id, naame, birthday, email) values (8, 'Con', '22.03.2023', 'cgloucester7@yahoo.co.jp');
+insert into test (id, naame, birthday, email) values (9, 'Rosaline', '20.09.2022', null);
+insert into test (id, naame, birthday, email) values (10, 'Angele', '18.01.2023', 'aserver9@mapy.cz');
+insert into test (id, naame, birthday, email) values (11, 'Bette', '12.04.2022', 'blichfielda@people.com.cn');
+insert into test (id, naame, birthday, email) values (12, 'Enos', '12.03.2023', null);
+insert into test (id, naame, birthday, email) values (13, 'Dom', '02.04.2022', 'doutlawc@irs.gov');
+insert into test (id, naame, birthday, email) values (14, 'Courtenay', '02.11.2022', null);
+insert into test (id, naame, birthday, email) values (15, 'Hal', '05.01.2023', 'hkiddeye@opera.com');
+insert into test (id, naame, birthday, email) values (16, 'Maisey', '13.07.2022', 'mhallowellf@discovery.com');
+insert into test (id, naame, birthday, email) values (17, 'Mohandis', '22.01.2023', 'mbeswickg@wiley.com');
+insert into test (id, naame, birthday, email) values (18, 'Suzann', '19.03.2023', 'sdaleh@aol.com');
+insert into test (id, naame, birthday, email) values (19, 'Simmonds', '25.12.2022', 'secclesi@naver.com');
+insert into test (id, naame, birthday, email) values (20, 'Hermine', '17.06.2022', null);
+insert into test (id, naame, birthday, email) values (21, 'Eyde', '28.02.2023', 'etedderk@woothemes.com');
+insert into test (id, naame, birthday, email) values (22, 'Chrissie', '26.04.2022', 'cwillcocksl@sfgate.com');
+insert into test (id, naame, birthday, email) values (23, 'Robina', '02.08.2022', null);
+insert into test (id, naame, birthday, email) values (24, 'Dena', '04.06.2022', 'dogavinn@creativecommons.org');
+insert into test (id, naame, birthday, email) values (25, 'Maegan', '02.01.2023', null);
+insert into test (id, naame, birthday, email) values (26, 'Barret', '20.02.2023', null);
+insert into test (id, naame, birthday, email) values (27, 'Barnard', '28.07.2022', null);
+insert into test (id, naame, birthday, email) values (28, 'Lawrence', '10.09.2022', 'lgrangerr@ocn.ne.jp');
+insert into test (id, naame, birthday, email) values (29, 'Pebrook', '10.03.2023', 'plangsdons@abc.net.au');
+insert into test (id, naame, birthday, email) values (30, 'Whitman', '08.06.2022', 'wcadigant@yolasite.com');
+insert into test (id, naame, birthday, email) values (31, 'Katharyn', '18.11.2022', 'kflaundersu@state.gov');
+insert into test (id, naame, birthday, email) values (32, 'Bili', '30.10.2022', 'btarneyv@feedburner.com');
+insert into test (id, naame, birthday, email) values (33, 'Pollyanna', '13.02.2023', 'pdudnyw@ehow.com');
+insert into test (id, naame, birthday, email) values (34, 'Joceline', '16.07.2022', 'jpikhnox@smh.com.au');
+insert into test (id, naame, birthday, email) values (35, 'Waylen', '20.01.2023', null);
+insert into test (id, naame, birthday, email) values (36, 'Marya', '12.03.2023', 'mhebditchz@google.ru');
+insert into test (id, naame, birthday, email) values (37, 'Charlotta', '04.08.2022', null);
+insert into test (id, naame, birthday, email) values (38, 'Drucill', '10.09.2022', 'dmoorhouse11@hexun.com');
+insert into test (id, naame, birthday, email) values (39, 'Fax', '08.05.2022', 'fschimann12@umich.edu');
+insert into test (id, naame, birthday, email) values (40, 'Wilmer', '12.06.2022', 'wlarcombe13@oaic.gov.au');
+insert into test (id, naame, birthday, email) values (41, 'Roobbie', '13.01.2023', 'ryurkov14@studiopress.com');
+insert into test (id, naame, birthday, email) values (42, 'Fraze', '20.02.2023', null);
+insert into test (id, naame, birthday, email) values (43, 'Ronni', '09.06.2022', 'rsecrett16@webeden.co.uk');
+insert into test (id, naame, birthday, email) values (44, 'Tomasina', '22.01.2023', 'tcato17@time.com');
+insert into test (id, naame, birthday, email) values (45, 'Camey', '01.02.2023', 'crundall18@yahoo.com');
+insert into test (id, naame, birthday, email) values (46, 'Westleigh', '22.11.2022', 'wsimonnet19@ucoz.com');
+insert into test (id, naame, birthday, email) values (47, 'Freda', '26.09.2022', 'fgleadhell1a@bravesites.com');
+insert into test (id, naame, birthday, email) values (48, 'Paola', '01.08.2022', null);
+insert into test (id, naame, birthday, email) values (49, 'Wilie', '21.11.2022', null);
+insert into test (id, naame, birthday, email) values (50, 'Karena', '03.10.2022', null);
+
+
+Sütunların her birine göre diğer sütunları güncelleyecek 5 adet UPDATE işlemi yapalım.
+update test
+set name = 'Cemal'
+where id = 1;
+
+update test
+set name = 'Metin'
+where id = 2;
+
+update test
+set name = 'Pınar'
+where id = 3;
+
+update test
+set birthday = '23.04.1923'
+where id = 4;
+
+
+update test
+set email = 'fenerbahçe@gmail.com'
+where id = 5;
+
+
+Sütunların her birine göre ilgili satırı silecek 5 adet DELETE işlemi yapalım.
+
+delete from test
+where id = 13
+
+delete from test
+where name = 'Fraze'
+
+delete from test
+where id = 45
+
+delete from test
+where birthday = 03.10.2022
+
+delete from test
+where id = 23;
+
+
